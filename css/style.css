@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Anek Latin', sans-serif;
+    /* font-family: 'Anek Latin', sans-serif; */
     font-size: 16px;
 }
 
@@ -12,11 +12,22 @@ ul, ol, nav {
     list-style: none;
 }
 
+img {
+    width: 100%;
+}
+
 a {
     color: currentColor;
     text-decoration: none;
+    padding: 0px 10px;
+    
 }
 
+.button-blue {
+    background-color: rgb(30 75 216);
+    color: white;
+    width: fit-content;
+}
 
 /* HEADER  */
 .header {
@@ -24,7 +35,7 @@ a {
 }
 
 .header > .container {
-    width: 1920px;
+    max-width: 1920px;
     margin: 0 auto;
 }
 
@@ -43,14 +54,50 @@ a {
     flex-grow: 1;
 }
 
-.header a {
-    padding: 0px 15px;
+
+
+/* MAIN  */
+
+/* HERO  */
+.hero {
+    background-color: #B0F1FF;
 }
 
-.header .list-button {
-    background-color: rgb(30 75 216);
-    color: white;
+.hero > .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 70px;
 }
+
+.hero-part-1 {
+    margin-bottom: 15px;
+}
+
+.hero h1 {
+    font-weight: bold;
+    font-size: 84px;
+}
+
+.hero-part-2 {
+    height: 400px;
+    line-height: 1.2em;
+}
+
+.hero .hero-part-2 {
+    display: flex;
+}
+
+.hero-part-2 .col2 {
+    width: calc(100% / 3 * 2);
+}
+
+.hero-descriptions p,
+.hero-descriptions a {
+    margin-bottom: 30px;
+}
+
+
+
 
 
 
