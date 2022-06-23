@@ -3,5 +3,58 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Anek Latin', sans-serif;
+    font-size: 16px;
 }
 
+/* GENERALI */
+ul, ol, nav {
+    list-style: none;
+}
+
+a {
+    color: currentColor;
+    text-decoration: none;
+}
+
+
+/* HEADER  */
+.header {
+    padding: 18px;
+}
+
+.header > .container {
+    width: 1920px;
+    margin: 0 auto;
+}
+
+.header .row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+}
+
+.header .list {
+    display: flex;
+}
+
+.header .list-1 {
+    flex-grow: 1;
+}
+
+.header a {
+    padding: 0px 15px;
+}
+
+.header .list-button {
+    background-color: rgb(30 75 216);
+    color: white;
+}
+
+
+
+/* DEBUG  */
+.debug * {
+    border: 2px solid red;
+}
