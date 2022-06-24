@@ -185,6 +185,7 @@ a {
 
 .card-body {
     line-height: 2em;
+    padding-top: 30px;
 }
 
 .list-conditions .row,
@@ -215,9 +216,29 @@ a {
     margin-bottom: 30px;
 }
 
+.col8 p {
+    margin-top: auto;
+}
+
+.col12 .col4 {
+    width: calc(100% / 3 * 1);
+    justify-content: center;
+    align-items: baseline;
+}
+
+.col12 .col8 {
+    width: calc(100% / 3 * 2);
+    flex-direction: column;
+    
+}
+
+
+
 
 /* DEBUG  */
 .debug * {
     border: 2px solid red;
 }
+
+
 
