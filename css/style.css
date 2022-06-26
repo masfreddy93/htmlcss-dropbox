@@ -29,6 +29,13 @@ a {
     width: fit-content;
 }
 
+.button-white {
+    background-color: transparent;
+    color: black;
+    width: fit-content;
+    border: 1px solid black;
+}
+
 .container-small {
     max-width: 1000px;
     margin: 0 auto;
@@ -41,12 +48,16 @@ a {
 
 .row {
     display: flex;
-   flex-wrap: wrap;
+    flex-wrap: wrap;
 }
 
-/* .col4 {
+h3 {
+    font-size: 24px;
+}
+
+ .col4 {
     width: calc(100% / 3);
-} */
+} 
 
 .col12 {
     width: calc(100% / 1);
@@ -202,7 +213,7 @@ a {
     gap: 50px;
 }
 
-.col4 {
+.section-1 .col4 {
     flex-basis: 0;
     flex-grow: 1;
 }
@@ -243,6 +254,67 @@ a {
     left: 0;
 }
 
+.section-1 {
+    margin-bottom: 150px;
+}
+
+
+/* SECTION 2  */
+.section-2 .partner-section-2 {
+    padding: 50px;
+}
+
+.col-3-5 {
+    width: calc(100% / 5 * 3);
+}
+
+.col-2-5 {
+    width: calc(100% / 5 * 2);
+}
+
+.partner-section-2 h3 {
+    margin-bottom: 20px;
+}
+
+.partner-section-2 p {
+    margin-bottom: 30px;
+}
+
+
+/* SECTION 3  */
+.section-2 {
+    margin-bottom: 150px;
+}
+
+.section-3 .row {
+    gap: 40px;
+}
+
+
+
+.section-3 .card {
+    margin-bottom: 50px;
+}
+
+.section-3 h2{
+    margin-bottom: 50px;
+    font-size: 40px;
+}
+
+.section-3 img {
+    margin-bottom: 20px;
+}
+
+.section-3 h3 {
+    margin-bottom: 30px;
+}
+
+.section-3 .col4 {
+    width: calc((100% - 80px) /3);
+}
+
+
+/* SECTION 4  */
 
 
 /* DEBUG  */
