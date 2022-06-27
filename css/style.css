@@ -76,7 +76,7 @@ h3 {
     padding: 18px;
 }
 
-.header main {
+.header, main {
     max-width: 1920px;
     margin: 0 auto;
     
