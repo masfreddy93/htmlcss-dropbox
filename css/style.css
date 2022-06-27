@@ -352,8 +352,8 @@ h3 {
     margin-bottom: 100px;
 }
 
-.marchi {
-    
+.marchii {
+    position: relative;
 }
 
 .immaginelogo {
@@ -370,7 +370,7 @@ h3 {
     align-items: center;
     display: flex;
     background-color: #0061FF;
-    
+    position: relative;
 }
 
 .marchii img {
@@ -387,9 +387,33 @@ h3 {
     margin-bottom: 50px;
 }
 
-.thumbnail-marchio .last-p {
-    margin-bottom: 230px;
+.thumbnail-marchio img {
+    
+    max-height: 80px;
+    
 }
+
+.bordi::after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0;
+}
+
+.bordi.active::after {
+    opacity: 1;
+}
+
+.bordi::after {
+    border: 10px solid rgb(255, 255, 255, 0.5);
+}
+
+
+
 
 .thumbnail-marchio hr {
     width: 100px;
