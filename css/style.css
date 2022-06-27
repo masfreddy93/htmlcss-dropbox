@@ -32,7 +32,7 @@ a {
     background-color: transparent;
     color: black;
     width: fit-content;
-    border: 1px solid black;
+    border: 1px solid currentColor;
 }
 
 .container-small {
@@ -66,6 +66,9 @@ h3 {
     width: calc(100% / 2);
 }
 
+.col3 {
+    width: calc(100% / 4);
+}
 
 
 /* HEADER  */
@@ -377,6 +380,34 @@ h3 {
 }
 
 
+/* SECTION 5 */
+
+
+
+.section-5 {
+    padding: 150px 0;
+    background-color: #B0F1FF;
+}
+
+
+.section-5 h2 {
+    font-size: 40px;
+    color: rgb(97, 8, 43);
+}
+
+.section-5 .container-small {
+   justify-content: space-between;
+}
+
+.section-5-button {
+    justify-content: flex-end;
+}
+
+.section-5 .button-white {
+    height: fit-content;
+    line-height: 1.5em;
+    background-color: white;
+}
 
 
 
