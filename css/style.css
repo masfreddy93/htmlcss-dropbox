@@ -410,6 +410,31 @@ h3 {
 }
 
 
+/* SECTION 6 */
+
+.section-5 {
+    margin-bottom: 150px;
+}
+
+.section-6 h2 {
+    font-size: 40px;
+    margin-bottom: 65px;
+}
+
+.section-6 .row {
+    justify-content: space-between;
+    font-weight: bold;
+    padding: 40px 0;
+    border-bottom: 1px solid rgb(160, 160 , 160);
+}
+
+.section-6 .first-row {
+    border-top: 1px solid rgb(160, 160 , 160);
+}
+
+.section-6 span {
+    font-size: 20px;
+}
 
 
 
