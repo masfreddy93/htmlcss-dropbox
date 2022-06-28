@@ -147,22 +147,19 @@ h3 {
 
 
 /* SECTION 1  */
-.section1-title h2{
+.section1-title{
     margin-bottom: 60px;
 }
 
 .billing-buttons {
     align-items: center;
     margin-bottom: 45px;
+    /* gap: 40px; */
 }
 
-.cards {
-    border: 1px solid rgb(65, 61, 61);
-    padding: 30px;
-}
-
-.billing-buttons {
-    gap: 20px;
+.billing-buttons > .row {
+    gap: 5px;
+    align-items: center;
 }
 
 .circle {
@@ -170,52 +167,48 @@ h3 {
     height: 16px;
     border: 1px solid black;
     border-radius: 50%; 
-    display: inline-block;
 }
 
 .circle1 .circle {
     border: 3px solid #0061FF;
 }
 
+/* cards  */
+
+.cards {
+    border: 1px solid rgb(65, 61, 61);
+}
+
 .card-header {
     text-align: center;
-    border: 1px solid rgb(65, 61, 61);
+    border-bottom: 1px solid rgb(65, 61, 61);
     padding: 10px 0;
-}
-
-.card-header-title {
-    font-size: 16px;
-    display: inline-block;
-}
-
-.card-body {
-    line-height: 2em;
-    padding-top: 30px;
-}
-
-.list-conditions .row,
-.list-highlights .row{
-    gap: 5px;
-    align-items: center;
-}
-
-.fa-solid fa-check {
-    color: #0061FF;
-}
-
-.purchase a {
-    color: blue;
-    text-decoration: underline;
-    padding: 0px 0px; 
 }
 
 .section1-content > .row {
     gap: 50px;
 }
 
-.section-1 .col4 {
-    flex-basis: 0;
-    flex-grow: 1;
+
+.card-header-title {
+    display: inline-block;
+}
+
+.card-body {
+    padding: 30px;
+}
+
+.card-body li,
+.card-body h3,
+.card-body p,
+.card-body h4 {
+    padding-bottom: 15px;
+}
+
+.purchase a {
+    color: blue;
+    text-decoration: underline;
+    padding: 0px 0px; 
 }
 
 .cards hr {
@@ -231,6 +224,12 @@ h3 {
     margin-top: auto;
 }
 
+.section-1 .col4 {
+    flex-basis: 0;
+    flex-grow: 1;
+}
+
+/* colonna larga in basso */
 .col12 .col4 {
     width: calc(100% / 3 * 1);
     justify-content: center;
