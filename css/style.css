@@ -490,8 +490,8 @@ h3 {
 #footer .language {
     display: flex;
     gap: 5px;
+    align-items: center;
 }
-
 
 
 
