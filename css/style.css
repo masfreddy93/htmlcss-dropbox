@@ -260,7 +260,7 @@ h3 {
 }
 
 
-/* SECTION 2  */
+/* SECTION 2 */
 .section-2 .partner-section-2 {
     padding: 50px;
 }
@@ -282,17 +282,16 @@ h3 {
 }
 
 
-/* SECTION 3  */
+/* SECTION 3 */
 .section-3 .row {
     gap: 40px;
 }
-
 
 .section-3 .card {
     margin-bottom: 50px;
 }
 
-.section-3 h2{
+.section-3 > .title{
     margin-bottom: 50px;
 }
 
