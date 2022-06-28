@@ -14,30 +14,28 @@
 <body class="debug">
     
     <header class="header">
-        <!-- header composto dalla navbar sopra -->
-        <!-- 3 elementi (logo, 'perché', accedi..)
-        per la disposizione del 2 elemento, flex grow oppure
-        marginLeftAuto nel 3 elemento -->
-                <div class="row">
-                    <figure>
-                        <img src="img/logo-small.png" alt="Logo Dropbox" class="logo-img">
-                    </figure>
-                    <ul class="list list-1">
-                        <li><a href="#">Perchè Dropbox</a></li>
-                        <li><a href="#">Funzioni</a></li>
-                        <li><a href="#">Piani e prezzi</a></li>
-                    </ul>
-                    <ul class="list list-2">
-                        <li><a href="#">Supporto</a></li>
-                        <li><a href="#">Contatta l'ufficio vendite</a></li>
-                        <li><a href="#">Accedi</a></li>
-                        <li><a href="#" class="list-button button-blue">Inizia</a></li>
-                    </ul>
-                </div>
+        <div class="row">
+            <figure>
+                <img src="img/logo-small.png" alt="Logo Dropbox" class="logo-img">
+            </figure>
+            <div class="row list-1">
+                <ul class="list list-1 row">
+                    <li><a href="#">Perchè Dropbox</a></li>
+                    <li><a href="#">Funzioni</a></li>
+                    <li><a href="#">Piani e prezzi</a></li>
+                </ul>
+            </div>
+            <div class="row list-2">
+                <ul class="list list-1 row">
+                    <li><a href="#">Perchè Dropbox</a></li>
+                    <li><a href="#">Funzioni</a></li>
+                    <li><a href="#">Piani e prezzi</a></li>
+                </ul>
+            </div>
+        </div>
     </header>
 
     <main>
-        <!-- composto da diverse sezioni  -->
         <div class="hero">
             <!-- sezione composta da 2 parti..la prima è il
             titolo, la seconda il resto delle componenti
@@ -232,7 +230,7 @@
                                     <h4 class="list-highlights-title" style="font-weight: bold;">Punti salienti del piano</h4>
                                     <ul>
                                         <li class="condition-position">
-                                            <i class="fa-solid fa-checke"></i>
+                                            <i class="fa-solid fa-check"></i>
                                             <span class="condition-description">Invia file fino a 100 GB con Dropbox Transfert</span>
                                         </li>
                                         <li class="condition-position">

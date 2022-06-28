@@ -19,7 +19,7 @@ img {
 a {
     color: currentColor;
     text-decoration: none;
-    padding: 0px 10px; 
+    padding: 5px 10px; 
 }
 
 .button-blue {
@@ -33,6 +33,11 @@ a {
     color: black;
     width: fit-content;
     border: 1px solid currentColor;
+}
+
+.header, main {
+    max-width: 1920px;
+    margin: 0 auto;
 }
 
 .container-small {
@@ -50,11 +55,15 @@ a {
     flex-wrap: wrap;
 }
 
+h2 {
+    font-size: 40px;
+}
+
 h3 {
     font-size: 24px;
 }
 
- .col4 {
+.col4 {
     width: calc(100% / 3);
 } 
 
@@ -76,27 +85,15 @@ h3 {
     padding: 18px;
 }
 
-.header, main {
-    max-width: 1920px;
-    margin: 0 auto;
-    
-}
-
-.header .row {
-    display: flex;
+.header > .row {
     align-items: center;
     justify-content: space-between;
     gap: 8px;
 }
 
-.header .list {
-    display: flex;
-}
-
 .header .list-1 {
     flex-grow: 1;
 }
-
 
 
 /* MAIN  */
@@ -164,7 +161,6 @@ h3 {
 
 /* SECTION 1  */
 .section1-title h2{
-    font-size: 40px;
     margin-bottom: 60px;
 }
 
@@ -316,7 +312,6 @@ h3 {
 
 .section-3 h2{
     margin-bottom: 50px;
-    font-size: 40px;
 }
 
 .section-3 img {
@@ -340,7 +335,6 @@ h3 {
 
 
 .section-4 h2 {
-    font-size: 40px;
     margin-bottom: 50px;
 }
 
@@ -432,7 +426,6 @@ h3 {
 
 
 .section-5 h2 {
-    font-size: 40px;
     color: rgb(97, 8, 43);
 }
 
@@ -458,7 +451,6 @@ h3 {
 }
 
 .section-6 h2 {
-    font-size: 40px;
     margin-bottom: 65px;
 }
 
